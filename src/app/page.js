@@ -106,7 +106,7 @@ export default function LandingPage() {
       
       {/* ---------------- NAVBAR ---------------- */}
       <header className="sticky top-0 z-50 border-b border-slate-800/80 bg-slate-950/80 backdrop-blur-xl">
-        <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+        <nav className="max-w-7xl mx-auto px-6 h-20 flex flex-col sm:flex-row items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
             <span className="text-xl font-black tracking-tight text-white">
               Digital Solutions Agency
